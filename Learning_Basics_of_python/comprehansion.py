@@ -15,3 +15,24 @@ print("----------------------------------------004------------------------------
 getData005 = [(item,nextItem) for item in fruits for nextItem in li001 if nextItem >= 8];
 print("getData005->",getData005);
 print("----------------------------------------005------------------------------------------------")
+getData006 = [(item,nextItem) for item in li001 for nextItem in fruits]
+print("getData006->",getData006);
+print("----------------------------------------006------------------------------------------------")
+getData007 = [{item:nextItem} for item in li001 if item %2==0 for nextItem in fruits];
+print("getData007->",getData007);
+print("----------------------------------------007------------------------------------------------")
+getData008 = [{nextItem:item} for nextItem in fruits for item in li001 if item %3==0];
+print("getData008->",getData008)
+print("----------------------------------------008------------------------------------------------")
+getData009 = [li001[item:item+3] for item in range(0,10,1)];
+print("getData009->",getData009);
+print("----------------------------------------009------------------------------------------------")
+getData010 = [{nextItem:item} for item in li001 if item % 3==0 for nextItem in li001 if nextItem%2==0];
+print("getData010->",getData010);
+print("----------------------------------------010------------------------------------------------")
+getData011= [{nextItem:item} for item in li001 if item%2==0 for nextItem in fruits];
+print("getData011->",getData011);
+print("----------------------------------------011------------------------------------------------")
+
+
+
