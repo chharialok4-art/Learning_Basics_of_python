@@ -1,4 +1,4 @@
-li001 =[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+li001 =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
 incre = 1;
 count = 0;
 another = 1;
@@ -12,7 +12,4 @@ for item in range(0,len(li001),1):
     else:
         break;
 print(tempList);
-getMax =[];
-for item in tempList:
-    getMax.append(len(item));
-print(max(getMax));
+    
