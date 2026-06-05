@@ -87,7 +87,7 @@ get_student_key =[];
 for item in range(0,count,1):
     get_input = str(input("->"))
     count = count+1;
-    if get_input == 0:
+    if get_input == "0":
         break;
     else:
         get_student_key.clear();
