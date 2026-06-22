@@ -1,3 +1,4 @@
+details ={};
 class Student:
     no_of_student = 0
     def __init__(self,name,roll_number,standard,course):
@@ -20,13 +21,17 @@ if __name__ == "__main__":
     Darshi_Singh = Student("Darshi Singh",400,9,"Home Science");
     Chanu_Mansingh = Student("Kabir Singh",500,9,"History");
     alok_chhari.student_details_display();
-    print("----------------------------------------------------------------------------")
-    Chanu_Mansingh.student_details_display();
-    print("----------------------------------------------------------------------------")
-    Darshi_Singh.student_details_display();
-    print("----------------------------------------------------------------------------")
-    Annu_mansingh.student_details_display();
-    print("----------------------------------------------------------------------------")
-    Amit_chhari.student_details_display();
-    print("----------------------------------------------------------------------------")
-    Student.no_of_students_college(None);
+    # print("----------------------------------------------------------------------------")
+    # Chanu_Mansingh.student_details_display();
+    # print("----------------------------------------------------------------------------")
+    # Darshi_Singh.student_details_display();
+    # print("----------------------------------------------------------------------------")
+    # Annu_mansingh.student_details_display();
+    # print("----------------------------------------------------------------------------")
+    # Amit_chhari.student_details_display();
+    # print("----------------------------------------------------------------------------")
+    # Student.no_of_students_college(None);
+    details = alok_chhari.__dict__;
+    print(details);
+    print("--------------------------------------------------------------------------")
+    print(Student.__dict__);
