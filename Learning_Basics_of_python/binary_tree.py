@@ -13,8 +13,12 @@ if get_value<arr01[ending-1]:
             break;
         elif arr01[mid]<get_value:
             starting=mid;
+            continue;
         elif arr01[mid]>get_value:
             ending=mid;
+            continue;
+        else:
+            print("Not Found");
 else:
     print("Not Found");
 
