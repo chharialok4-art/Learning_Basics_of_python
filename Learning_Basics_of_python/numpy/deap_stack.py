@@ -17,3 +17,6 @@ arr002=np.array([[["A1","B2","C3"],["A100","B200","C300"]],[["A101","B202","C303
 make_dstack_3D_to_3D=np.dstack((arr001,arr002));
 print("Shape make_dstack_2D_to_2D:",make_dstack_3D_to_3D.shape);
 print("make_dstack_2D_to_2D:\n",make_dstack_3D_to_3D);
+
+NOTE="This 3-D answer is coke like this because dstack works in 2D array , if you give 3D array to dstack it "
+"give answer like hstack 2D array"
