@@ -27,5 +27,4 @@ arr002=np.array([[["A1","B2","C3"],["A100","B200","C300"]],[["A101","B202","C303
 make_vstack_3D_to_3D=np.vstack((arr001,arr002));
 print("Shape make_vstack_3D_to_3D:",make_vstack_3D_to_3D.shape);
 print("make_vstack_3D_to_3D:\n",make_vstack_3D_to_3D);
-
-
+NOTE="It is only for 2D array, if you give 3D array it behave differently";
