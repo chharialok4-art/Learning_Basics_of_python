@@ -24,6 +24,6 @@ make_stack_Axis_one001=np.stack((arr001,arr002),axis=1);
 print("Shape Stacked Array:",make_stack_Axis_one001.shape);
 print("Stack One and Two Axis two:\n",make_stack_Axis_one001);
 print("--------------------------------Stack axis-0-------------------------------------------------")
-make_stack_Axis_zero001=np.stack((arr001,arr002),axis=1);
+make_stack_Axis_zero001=np.stack((arr001,arr002),axis=0);
 print("Shape Stacked Array:",make_stack_Axis_zero001.shape);
 print("Stack One and Two Axis two:\n",make_stack_Axis_zero001);
