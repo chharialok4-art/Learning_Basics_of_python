@@ -1,0 +1,14 @@
+import numpy as np;
+arr_2D=np.arange(1,10,1).reshape(3,3);
+print("---------------------------------------3x3--------------------------------------------------");
+print("Original:\n",arr_2D);
+make_dia=np.diagonal(arr_2D);
+print("Diagonal:\n",make_dia);
+print("---------------------------------------3x5--------------------------------------------------");
+arr_2D_3x5=np.arange(0,15,1).reshape(3,5);
+print("Original:\n",arr_2D_3x5);
+arr_2D_3x5_dia=np.diagonal(arr_2D_3x5);
+print("Diagonal:\n",arr_2D_3x5_dia);
+print("---------------------------------------offset--------------------------------------------------");
+arr_2D_3x5_offset=np.diagonal(arr_2D_3x5,offset=2);
+print("Offset:\n",arr_2D_3x5_offset);
