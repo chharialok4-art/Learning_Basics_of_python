@@ -3,7 +3,7 @@ print("------------------------------Iterate 1D array---------------------------
 arr_1D=np.arange(0,10,1).flatten();
 for item in arr_1D:
     print(item,end=",");
-print("------------------------------Iterate 2D array------------------------------------------------")
+print("\n------------------------------Iterate 2D array------------------------------------------------")
 arr_2D=np.arange(0,9,1).reshape(3,3);
 for i in range(0,3,1):
     for j in range(0,3,1):
