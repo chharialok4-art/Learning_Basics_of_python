@@ -1,6 +1,7 @@
 import numpy as np;
 def make_sort_with_lex(arr_names,arr_marks):
     lexico=np.lexsort((arr_names,arr_marks));
+    print("Lexico:\n",lexico);
     combine_all=[];
     for item in range(0,len(lexico),1):
         combine_all.append((arr_names[lexico][item],arr_marks[lexico][item]))
