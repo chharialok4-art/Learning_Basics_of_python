@@ -1,0 +1,11 @@
+import numpy as np;
+arr_1D=np.arange(0,9,1).reshape(3,3);
+print("Original:\n",arr_1D);
+updated_arr=arr_1D+100;
+print("Altered:\n",updated_arr);
+print("-------------------------------------------------------------------------------------");
+arr001=np.arange(0,6,1).reshape(2,1,3);
+arr002=np.array([1000,2000,3000]);
+print("Original:\n",arr001,"\nOther:\n",arr002);
+altered_arr=arr001+arr002;
+print("Altered_Array:\n",altered_arr);
