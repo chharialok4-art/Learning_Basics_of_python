@@ -1,0 +1,11 @@
+import numpy as np;
+arr001=np.arange(100,370,10).reshape(3,3,3);
+arr002=np.arange(10,37,1).reshape(3,3,3);
+print("Array 001:\n",arr001);
+print("Array 002:\n",arr002);
+make_add=arr001+arr002;
+print("------------------------------------(+)-------------------------------------");
+print("Make Add:\n",make_add);
+make_subtraction=arr001-arr002;
+print("------------------------------------(-)-------------------------------------");
+print("Make Subtraction:\n",make_subtraction);
