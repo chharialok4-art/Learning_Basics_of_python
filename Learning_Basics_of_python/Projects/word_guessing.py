@@ -1,8 +1,8 @@
 import random;
-def guessing(group_of_words,generate_randon):
-    chance=len(group_of_words);
+def guessing(generate_randon):
+    chance=7
     get_word=[];
-    for _ in range(1,chance,1):
+    for _ in range(1,len(generate_randon),1):
         get_char=str(input("Choose character now:-"));
         get_word.append(get_char);
         if get_char not in generate_randon:
@@ -20,4 +20,4 @@ if __name__=="__main__":
     generate_randon=random.choice(group_of_words);
     print("List:-",group_of_words);
     print("Random Word:-",generate_randon);
-    guessing(group_of_words,generate_randon)
+    guessing(generate_randon)
