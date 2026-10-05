@@ -1,7 +1,6 @@
 import random;
 if __name__=="__main__":
-    generate_random_number=random.randint(1,10);
-    print(generate_random_number);
+    generate_random_number=random.randint(1,10)
     for _ in range(0,7,1):
         guess_number=int(input("enter the number between 1 to 10:-"));
         if generate_random_number==guess_number:
