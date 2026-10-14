@@ -59,3 +59,4 @@ class Real_world_example:
                "price": book.css().get(),
                 "availbility":book.css().getall()
             }
+# Its a intro for scrapy basic coding style. It not a full fladgue program except last example.
