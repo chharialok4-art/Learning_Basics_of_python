@@ -13,7 +13,10 @@ print("All Rows 1st Column:\n",arr_2D[:,1]);#All Rows 1st Column-[1,4,7]
 print("0th row all columns:\n",arr_2D[0,:])#0th row all columns-[0,1,2]
 print("all rows 0th column:\n",arr_2D[:,0])#all rows 0th column-[0,3,6]
 print("1st row with 0th column:\n",arr_2D[1:,0])#1st row with 0th column[3,6]
-print("0th row with 2nd column",arr_2D[0:,2])#0th row with 2nd column[2,5,8]
+print("0th row with 2nd column\n",arr_2D[0:,2])#0th row with 2nd column[2,5,8]
+print("!!!!!!!!!!!!!!!!!!!!!!\n",arr_2D[1:,2])
+print("**********************\n",arr_2D[1,:2])
+print("$$$$$$$$$$$$$$$$$$$$$$\n",arr_2D[0,:2])
 arr = np.arange(12)
 arr_3d = arr.reshape(3, 4)
 print("-------------:\n",arr_3d)
