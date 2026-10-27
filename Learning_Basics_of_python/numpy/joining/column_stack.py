@@ -19,3 +19,4 @@ print("Shape make_column_stack_3D_to_3D:",make_column_stack_3D_to_3D.shape);
 print("make_column_stack_3D_to_3D:\n",make_column_stack_3D_to_3D);
 NOTE="Column_stack behave for 1D array as same as dstack and for 2D array it behave as" \
 "hstack and it works for 2D array if you give 3D array it behave differently";
+NOTE="2D to 1D not possible, 3D to 2D or 3D to 1D is not possible. It do only with similar dimensions"
