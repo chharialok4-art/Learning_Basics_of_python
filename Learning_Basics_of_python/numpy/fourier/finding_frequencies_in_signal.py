@@ -4,9 +4,7 @@ import matplotlib.pyplot as plt
 sampling_rate = 500
 duration = 2
 t = np.arange(0, duration, 1/sampling_rate)
-signal = (
-    3 * np.sin(2 * np.pi * 5 * t) + 2 * np.sin(2 * np.pi * 15 * t) + 1 * np.sin(2 * np.pi * 30 * t)
-)
+signal = (3*np.sin(2*np.pi*5*t) + 2*np.sin(2*np.pi*15*t) + 1*np.sin(2*np.pi*30*t))
 fft_values = np.fft.rfft(signal)
 frequencies = np.fft.rfftfreq(len(signal), d=1/sampling_rate)
 magnitude = np.abs(fft_values)
