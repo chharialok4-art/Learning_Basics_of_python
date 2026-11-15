@@ -1,0 +1,17 @@
+signal_frequency_analyzer/
+│
+├── data/
+│   └── audio/
+│
+├── reports/
+│
+├── plots/
+│
+├── src/
+│   ├── signal_generator.py
+│   ├── signal_loader.py
+│   ├── frequency_analysis.py
+│   ├── signal_statistics.py
+│   └── visualization.py
+│
+└── main.py
