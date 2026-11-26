@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+def plot_graph(time,signal,real_magnitude,real_frequency,noisy_signal):
+    fig,ax=plt.subplots(3,1, figsize=(8,6))
+    ax[0].plot(time,signal)
+    ax[0].set_title("Time vs Signal")
+    ax[0].set_xlabel("Time")
+    ax[0].set_ylabel("Signal")
+    ax[0].grid()
+    ax[1].plot(time,noisy_signal)
+    ax[1].set_title("Time vs Noisy_Signal")
+    ax[1].set_xlabel("Time")
+    ax[1].set_ylabel("Noise")
+    ax[1].grid()
+    ax[2].plot(real_frequency,real_magnitude)
+    ax[2].set_title("real_frequency vs real_magnitude")
+    ax[2].set_xlabel("noisy_real_frequency")
+    ax[2].set_ylabel("noisy_real_magnitude")
+    ax[2].set_xlim(0,15)
+    ax[2].grid()
+    plt.show()
+    
