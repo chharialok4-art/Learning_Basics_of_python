@@ -33,3 +33,12 @@ print("---------------------------------map to upper case strings---------------
 s_001 = pd.Series(["python", "numpy", "pandas"])
 result = s_001.map(str.upper)
 print(result)
+print("-----------------------------------two series mapping-----------------------------------------------")
+grade_mapping = {
+    1: "Excellent",
+    2: "Good",
+    3: "Average"
+}
+result = grades.map(grade_mapping)
+grades = pd.Series([1, 1, 3, 4, 3, 2, 1])
+print(grades.map(grade_mapping))

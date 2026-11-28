@@ -35,3 +35,7 @@ print("-------------------------------Sort value by Column----------------------
 print(emply_dataframe.sort_values(by="Salary",ascending=True))
 print("-------------------------------Test------------------------------------------")
 print(emply_dataframe.loc[1:3, ["Name", "Salary"]])
+print("-------------------------------Info------------------------------------------")
+print(emply_dataframe.info())
+print("-------------------------------Describe------------------------------------------")
+print(emply_dataframe.describe())
